@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <router-view />
-    <Nav />
+    <Tabbar />
   </div>
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue'
+import Tabbar from '@/components/Tabbar.vue'
 
 export default {
   components: {
-    Nav,
+    Tabbar,
   },
 }
 </script>

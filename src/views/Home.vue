@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-nav-bar title="零工社区">
+    <van-nav-bar class="home-title" title="零工社区">
       <template #right>
         <van-icon name="search" size="18" />
       </template>
@@ -19,12 +19,14 @@ export default {
 </script>
 
 <style lang="scss">
-.van-nav-bar {
-  // background: #fe6b0d;
-  // background: $themeColor;
+.home {
   .van-nav-bar__title {
     color: #fff;
   }
+  .van-nav-bar {
+    background: $themeColor;
+  }
+
   .van-icon {
     color: #fff;
   }

@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <van-nav-bar title="零工社区" />
+  <div class="owner">
+    知识产权
   </div>
 </template>
 
