@@ -5,8 +5,10 @@ import store from './store'
 import './assets/icon/style.css'
 
 import 'lib-flexible'
-import { Icon, Tabbar, TabbarItem, NavBar } from 'vant'
+import { Tab, Tabs, Icon, Tabbar, TabbarItem, NavBar } from 'vant'
 
+Vue.use(Tab)
+Vue.use(Tabs)
 Vue.use(Icon)
 Vue.use(Tabbar)
 Vue.use(TabbarItem)

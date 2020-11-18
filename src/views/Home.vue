@@ -5,6 +5,19 @@
         <van-icon name="search" size="18" />
       </template>
     </van-nav-bar>
+
+    <div class="content">
+      <div class="left">
+        <van-tabs v-model="active" animated>
+          <van-tab title="需求"> <div class="home-nav"></div> </van-tab>
+          <van-tab title="服务">123123</van-tab>
+        </van-tabs>
+      </div>
+
+      <div class="right">
+        <span class="location">成都</span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,17 +31,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.home {
-  .van-nav-bar__title {
-    color: #fff;
-  }
-  .van-nav-bar {
-    background: $themeColor;
-  }
-
-  .van-icon {
-    color: #fff;
-  }
-}
-</style>
+<style lang="scss" src="@/assets/css/home.scss"></style>
