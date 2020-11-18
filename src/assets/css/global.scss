@@ -1,11 +1,12 @@
 //resource.scss
 $themeColor: #fe6b0d;
-
+$Color: #191f30;
 @mixin triangle {
   &:after {
     content: '';
     position: absolute;
     top: 40%;
+    right: -14px;
     border-top: solid 5px black;
     border-left: solid 4px transparent;
     border-right: solid 4px transparent;
