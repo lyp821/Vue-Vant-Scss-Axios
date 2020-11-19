@@ -16,24 +16,9 @@
     margin-top: -20px;
     background: #ffffff;
     border-radius: 12px 12px 0px 0px;
-
-    .van-dropdown-menu__bar {
-      box-shadow: none;
-      justify-content: space-between;
-      .van-dropdown-menu__item {
-        flex: none;
-        .van-ellipsis {
-          color: $Color;
-        }
-        .van-dropdown-menu__title {
-          padding: 0 8px 0 0;
-        }
-
-        .van-dropdown-menu__title::after {
-          border-color: transparent transparent $Color $Color;
-        }
-      }
-    }
+  }
+  .home-main {
+    padding: 0px 16px;
   }
   .van-tab {
     flex: none;
@@ -68,10 +53,24 @@
     height: 100%;
     border-radius: 8px;
   }
-  .section {
-    .home-img_section {
-      @extend .home-img;
-      margin-top: 16px;
+  .home-section {
+    widows: 100%;
+    height: 60px;
+    border-radius: 8px;
+    line-height: 60px;
+    background: {
+      image: url('../img/公共资源服务.png');
+      size: cover;
+    }
+
+    .home-p {
+      color: #fff;
+      text-align: left;
+      padding: 0px 24px;
+      font: {
+        weight: 600;
+        size: 18;
+      }
     }
   }
 }
