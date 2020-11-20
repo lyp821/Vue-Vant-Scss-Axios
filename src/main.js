@@ -5,6 +5,7 @@ import store from './store'
 import global from './utils/global'
 import common from './utils/common'
 import './assets/icon/style.css'
+import '@/assets/css/basis.scss'
 import 'lib-flexible'
 import {
   Tab,
