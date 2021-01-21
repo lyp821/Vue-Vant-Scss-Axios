@@ -1,18 +1,11 @@
 <template>
   <div id="app">
     <router-view />
-    <Tabbar />
   </div>
 </template>
 
 <script>
-import Tabbar from '@/components/Tabbar.vue'
-
-export default {
-  components: {
-    Tabbar,
-  },
-}
+export default {}
 </script>
 
 <style lang="scss">

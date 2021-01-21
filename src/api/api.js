@@ -1,7 +1,7 @@
 import http from '../unit/http'
 
 export default {
-  // 登录oauth
+  // eg
   getMagnateOauthAPI() {
     return http.get('/magnate/oauth')
   },
