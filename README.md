@@ -1,24 +1,7 @@
-# oddobjs
+# Vue-Vant-Scss-Axios
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 集成
+- Axios 请求封装
+- 移动端 `font-size` 自适应
+- Vant 组件引入
+- 公共函数、公共变量、公共SCSS编码规范
